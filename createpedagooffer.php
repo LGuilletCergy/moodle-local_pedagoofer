@@ -161,7 +161,7 @@ foreach($queryvet as $vet){
             echo "MISE A JOUR CATEGORIE VET : $currentvetname -> $updatedvetname<br/>\n";
 
             $vetcategory->name = $updatedvetname;
-            $DB->update_record('course_categories', $vetdata);
+            $DB->update_record('course_categories', $vetcategory);
         }
     } else {
 
