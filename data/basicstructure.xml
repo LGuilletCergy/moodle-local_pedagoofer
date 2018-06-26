@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+
+<rootTag>
+    <Composante nom="1 : UFR DROIT" code_composante="1">
+        <Niveau nom="L1" code_niveau="L1"/>
+        <Niveau nom="L2" code_niveau="L2"/>
+        <Niveau nom="L3" code_niveau="L3"/>
+        <Niveau nom="M1" code_niveau="M1"/>
+        <Niveau nom="M2" code_niveau="M2"/>
+        <Niveau nom="DU ou DUT" code_niveau="DU"/>
+        <Niveau nom="CMI" code_niveau="CM"/>
+        <Niveau nom="Autres" code_niveau="AU"/>
+    </Composante>
+    <Composante nom="2 : UFR ECONOMIE ET GESTION" code_composante="2">
+        <Niveau nom="L1" code_niveau="L1"/>
+        <Niveau nom="L2" code_niveau="L2"/>
+        <Niveau nom="L3" code_niveau="L3"/>
+        <Niveau nom="M1" code_niveau="M1"/>
+        <Niveau nom="M2" code_niveau="M2"/>
+        <Niveau nom="DU ou DUT" code_niveau="DU"/>
+        <Niveau nom="LP" code_niveau="LP"/>
+        <Niveau nom="CMI" code_niveau="CM"/>
+        <Niveau nom="Autres" code_niveau="AU"/>
+    </Composante>
+    <Composante nom="3 : UFR LANGUES ETUDES INTERNATIONALES" code_composante="3">
+        <Niveau nom="L1" code_niveau="L1"/>
+        <Niveau nom="L2" code_niveau="L2"/>
+        <Niveau nom="L3" code_niveau="L3"/>
+        <Niveau nom="M1" code_niveau="M1"/>
+        <Niveau nom="M2" code_niveau="M2"/>
+        <Niveau nom="DU ou DUT" code_niveau="DU"/>
+        <Niveau nom="LP" code_niveau="LP"/>
+        <Niveau nom="CMI" code_niveau="CM"/>
+        <Niveau nom="Autres" code_niveau="AU"/>
+    </Composante>
+    <Composante nom="4 : UFR LETTRES ET SCIENCES HUMAINES" code_composante="4">
+        <Niveau nom="L1" code_niveau="L1"/>
+        <Niveau nom="L2" code_niveau="L2"/>
+        <Niveau nom="L3" code_niveau="L3"/>
+        <Niveau nom="M1" code_niveau="M1"/>
+        <Niveau nom="M2" code_niveau="M2"/>
+        <Niveau nom="DU ou DUT" code_niveau="DU"/>
+        <Niveau nom="LP" code_niveau="LP"/>
+        <Niveau nom="CMI" code_niveau="CM"/>
+        <Niveau nom="Autres" code_niveau="AU"/>
+    </Composante>
+    <Composante nom="5 : UFR SCIENCES ET TECHNIQUES" code_composante="5">
+        <Niveau nom="L1" code_niveau="L1"/>
+        <Niveau nom="L2" code_niveau="L2"/>
+        <Niveau nom="L3" code_niveau="L3"/>
+        <Niveau nom="M1" code_niveau="M1"/>
+        <Niveau nom="M2" code_niveau="M2"/>
+        <Niveau nom="DU ou DUT" code_niveau="DU"/>
+        <Niveau nom="LP" code_niveau="LP"/>
+        <Niveau nom="CMI" code_niveau="CM"/>
+        <Niveau nom="Autres" code_niveau="AU"/>
+    </Composante>
+    <Composante nom="7 : IUT" code_composante="7">
+        <Niveau nom="DU ou DUT" code_niveau="DU"/>
+        <Niveau nom="LP" code_niveau="LP"/>
+        <Niveau nom="CMI" code_niveau="CM"/>
+        <Niveau nom="Autres" code_niveau="AU"/>
+    </Composante>
+    <Composante nom="8 : INSCRIPTIONS HORS COMPOSANTE" code_composante="8">
+        <Niveau nom="Services Centraux" code_niveau="SC">
+            <Vet nom="Centre de langues étrangères" code_vet="S1CIE"/>
+            <Vet nom="Centre de langue française" code_vet="S2CIL"/>
+            <Vet nom="Service d'ingénierie pédagogique" code_vet="S3SEF"/>
+            <Vet nom="Pôle développement" code_vet="S4DEV"/>
+            <Vet nom="Bibliothèque universitaire" code_vet="S5BIB"/>
+            <Vet nom="Direction orientation et insertion professionnelle" code_vet="S6DOI"/>
+        </Niveau>
+        <Niveau nom="Autres" code_niveau="AU"/>
+    </Composante>
+    <Composante nom="A : ESPE" code_composante="A">
+        <Niveau nom="L3" code_niveau="L3"/>
+        <Niveau nom="M1" code_niveau="M1"/>
+        <Niveau nom="M2" code_niveau="M2"/>
+        <Niveau nom="DU ou DUT" code_niveau="DU"/>
+        <Niveau nom="LP" code_niveau="LP"/>
+        <Niveau nom="CMI" code_niveau="CM"/>
+        <Niveau nom="Autres" code_niveau="AU"/>
+    </Composante>
+    <Composante nom="B : SCIENCES PO" code_composante="B">
+        <Niveau nom="Sciences PO" code_niveau="AU"/>
+    </Composante>
+</rootTag>
