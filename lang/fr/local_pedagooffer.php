@@ -34,3 +34,5 @@
 $string['pluginname'] = "Offre pédagogique";
 $string['createpedagooffer'] = "Créer l'offre pédagogique";
 $string['year'] = "Année";
+$string['privacy:metadata'] = 'Le plugin stocke des données de l\'université'
+        . ' mais aucune donnée personnelle.';
