@@ -211,15 +211,18 @@ foreach($queryvet as $vet){
             $levelcode = $yearufr."AU";
         }
 
-        $levelid = $DB->get_record('course_categories', array('idnumber' => $levelcode))->id;
+        if ($DB->record_exist('course_categories', array('idnumber' => $levelcode))) {
 
-        $vetdata = new stdClass();
-        $vetdata->name = $updatedvetname;
-        $vetdata->idnumber = $codevetyear;
-        $vetdata->parent = $levelid;
-        $vetdata->visible = 1;
+            $levelid = $DB->get_record('course_categories', array('idnumber' => $levelcode))->id;
 
-        $vetcategory = coursecat::create($vetdata);
+            $vetdata = new stdClass();
+            $vetdata->name = $updatedvetname;
+            $vetdata->idnumber = $codevetyear;
+            $vetdata->parent = $levelid;
+            $vetdata->visible = 1;
+
+            $vetcategory = coursecat::create($vetdata);
+        }
     }
 
     foreach ($vet->childNodes as $versionetape) {
