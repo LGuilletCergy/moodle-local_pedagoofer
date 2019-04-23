@@ -211,6 +211,8 @@ foreach($queryvet as $vet){
             $levelcode = $yearufr."AU";
         }
 
+        echo $levelcode;
+
         if ($DB->record_exist('course_categories', array('idnumber' => $levelcode))) {
 
             $levelid = $DB->get_record('course_categories', array('idnumber' => $levelcode))->id;
