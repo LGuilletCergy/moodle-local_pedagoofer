@@ -203,7 +203,7 @@ foreach($queryvet as $vet){
 
                 $levelcode = $yearufr."M2";
             }
-        } else if ($testcmi = "CMI") {
+        } else if ($testcmi == "CMI") {
 
             $levelcode = $yearufr."CM";
         } else {
@@ -211,9 +211,7 @@ foreach($queryvet as $vet){
             $levelcode = $yearufr."AU";
         }
 
-        echo $levelcode;
-
-        if ($DB->record_exist('course_categories', array('idnumber' => $levelcode))) {
+        if ($DB->record_exists('course_categories', array('idnumber' => $levelcode))) {
 
             $levelid = $DB->get_record('course_categories', array('idnumber' => $levelcode))->id;
 
