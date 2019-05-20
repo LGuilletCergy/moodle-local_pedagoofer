@@ -31,6 +31,6 @@
  * Version number
  */
 
-$plugin->version = 2018071300;
+$plugin->version = 2019052000;
 $plugin->requires = 2015051100;
 $plugin->component = 'local_pedagooffer';
